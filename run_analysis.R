@@ -56,10 +56,10 @@ run_analysis <- function(notdownloaded = F){
   # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   
   library(dplyr)
-  groupData <- Data_extracted %>%
+  tidyData <- Data_extracted %>%
     group_by(subject, activity) %>%
     summarise_all(funs(mean))
-  write.table(groupData, "./data/UCI HAR Dataset/groupData.txt", col.names = F, row.names = F)
-  write.table(names(groupData), "./data/UCI HAR Dataset/groupData_feature.txt")
+  write.table(tidyData, "./data/UCI HAR Dataset/tidyData.txt", col.names = F, row.names = F)
+  write.table(names(tidyData), "./data/UCI HAR Dataset/tidyData_feature.txt")
   print("done")
 }

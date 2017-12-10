@@ -4,9 +4,9 @@
 source("run_analysis.R")
 run_analysis()
 ```
-## groupData.txt
+## tidyData.txt
 this file is the required tidy data set
-## groupData_feature.txt
-this file has feature names corresponding to groupData.txt
+## tidyData_feature.txt
+this file has feature names corresponding to tidyData.txt
 ## CodeBook.md 
 this file has a more detailed guide
