@@ -1,5 +1,5 @@
 1. Merges the training and the test sets to create one data set.
- - setwd
+ - setwd()
  - download projectData.zip(download.file())
  - unzip projectData.zip(unzip())
  - read data into R(read.table())
