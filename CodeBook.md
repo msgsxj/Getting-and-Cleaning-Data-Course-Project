@@ -1,7 +1,7 @@
 # Variables and Data
  - groupData.txt has the tidy data set
  - groupData_feature.txt has corresponding feature names
- - all of the features are named descriptively,like "time...-mean-X"or"time...-std-Z"or"freq...-std"
+ - all of the features are named descriptively,like "time...-mean-X" or "time...-std-Z" or "freq...-std"
  - all data are within [-1,1]
 
 # Procedure
